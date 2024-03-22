@@ -14,19 +14,19 @@ const __dirname = dirname(__fileName);
 
 server.get("/", (req, res) => {
     console.log("Requested from ip: " + req.ip);
-    return res.sendFile(__dirname + "/src/pages/requestPage.html");
+    return res.sendFile(__dirname + "/pages/requestPage.html");
 })
 
 server.get("/styles/requestPage.css", (req, res) => {
-    return res.sendFile(__dirname + "/src/styles/requestPage.css");
+    return res.sendFile(__dirname + "/styles/requestPage.css");
 })
 
 server.get("/images/spinner.svg", (req, res) => {
-    return res.sendFile(__dirname + "/src/images/spinner.svg");
+    return res.sendFile(__dirname + "/images/spinner.svg");
 })
 
 server.get("/scripts/requestPage.js", (req, res) => {
-    return res.sendFile(__dirname + "/src/scripts/requestPage.js");
+    return res.sendFile(__dirname + "/scripts/requestPage.js");
 })
 
 // Exemplo de uso: curl "192.168.1.69:3000/element?site=https://github.com/Hartye&element=p&showOnConsole=true"
