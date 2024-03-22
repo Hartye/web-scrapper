@@ -1,8 +1,8 @@
 import express from "express";
 import { fileURLToPath } from "url"
 import { dirname } from "path";
-import { _opdCharName } from "./src/opdCharName.js";
-import { _getHeaders } from "./src/getHeaders.js";
+import { _opdCharName } from "./opdCharName.js";
+import { _getHeaders } from "./getHeaders.js";
 
 const OK = 200;
 const BAD_REQUEST = 400;
