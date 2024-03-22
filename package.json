@@ -2,7 +2,7 @@
   "name": "web_scrapper",
   "version": "1.0.0",
   "description": "Project to test web scrappers",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
     "start": "node .",
